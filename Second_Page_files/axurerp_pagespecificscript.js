@@ -1,4 +1,4 @@
-﻿for(var i = 0; i < 149; i++) { var scriptId = 'u' + i; window[scriptId] = document.getElementById(scriptId); }
+﻿for(var i = 0; i < 121; i++) { var scriptId = 'u' + i; window[scriptId] = document.getElementById(scriptId); }
 
 $axure.eventManager.pageLoad(
 function (e) {
@@ -77,9 +77,7 @@ if (true) {
 
 }
 });
-gv_vAlignTable['u106'] = 'top';gv_vAlignTable['u107'] = 'top';gv_vAlignTable['u109'] = 'center';HookHover('u127', false);
-gv_vAlignTable['u128'] = 'center';HookHover('u129', false);
-gv_vAlignTable['u30'] = 'center';gv_vAlignTable['u31'] = 'top';gv_vAlignTable['u33'] = 'center';gv_vAlignTable['u35'] = 'center';gv_vAlignTable['u37'] = 'center';gv_vAlignTable['u39'] = 'center';gv_vAlignTable['u93'] = 'center';gv_vAlignTable['u94'] = 'top';
+gv_vAlignTable['u106'] = 'top';gv_vAlignTable['u107'] = 'top';gv_vAlignTable['u109'] = 'center';gv_vAlignTable['u30'] = 'center';gv_vAlignTable['u31'] = 'top';gv_vAlignTable['u33'] = 'center';gv_vAlignTable['u35'] = 'center';gv_vAlignTable['u37'] = 'center';gv_vAlignTable['u39'] = 'center';gv_vAlignTable['u93'] = 'center';gv_vAlignTable['u94'] = 'top';
 $axure.eventManager.mouseover('u95', function(e) {
 if (!IsTrueMouseOver('u95',e)) return;
 if (true) {
@@ -97,17 +95,7 @@ if (true) {
 
 }
 });
-gv_vAlignTable['u99'] = 'top';gv_vAlignTable['u117'] = 'center';gv_vAlignTable['u118'] = 'top';gv_vAlignTable['u119'] = 'top';gv_vAlignTable['u41'] = 'center';gv_vAlignTable['u43'] = 'center';gv_vAlignTable['u45'] = 'center';gv_vAlignTable['u47'] = 'center';gv_vAlignTable['u49'] = 'center';
-$axure.eventManager.mouseover('u122', function(e) {
-if (!IsTrueMouseOver('u122',e)) return;
-if (true) {
-
-	SetPanelVisibility('u121','hidden','none',500);
-
-}
-});
-HookHover('u123', false);
-gv_vAlignTable['u124'] = 'center';gv_vAlignTable['u126'] = 'center';gv_vAlignTable['u1'] = 'center';gv_vAlignTable['u3'] = 'center';gv_vAlignTable['u5'] = 'center';gv_vAlignTable['u7'] = 'center';gv_vAlignTable['u9'] = 'center';gv_vAlignTable['u51'] = 'center';
+gv_vAlignTable['u99'] = 'top';gv_vAlignTable['u117'] = 'center';gv_vAlignTable['u118'] = 'top';gv_vAlignTable['u119'] = 'top';gv_vAlignTable['u41'] = 'center';gv_vAlignTable['u43'] = 'center';gv_vAlignTable['u45'] = 'center';gv_vAlignTable['u47'] = 'center';gv_vAlignTable['u49'] = 'center';gv_vAlignTable['u1'] = 'center';gv_vAlignTable['u3'] = 'center';gv_vAlignTable['u5'] = 'center';gv_vAlignTable['u7'] = 'center';gv_vAlignTable['u9'] = 'center';gv_vAlignTable['u51'] = 'center';
 $axure.eventManager.mouseover('u53', function(e) {
 if (!IsTrueMouseOver('u53',e)) return;
 if (true) {
@@ -125,11 +113,7 @@ if (true) {
 
 }
 });
-gv_vAlignTable['u56'] = 'center';gv_vAlignTable['u58'] = 'center';gv_vAlignTable['u59'] = 'top';gv_vAlignTable['u130'] = 'center';HookHover('u131', false);
-gv_vAlignTable['u132'] = 'center';HookHover('u133', false);
-gv_vAlignTable['u134'] = 'center';HookHover('u135', false);
-gv_vAlignTable['u136'] = 'center';HookHover('u137', false);
-gv_vAlignTable['u138'] = 'center';gv_vAlignTable['u139'] = 'top';gv_vAlignTable['u60'] = 'top';gv_vAlignTable['u61'] = 'top';gv_vAlignTable['u63'] = 'center';gv_vAlignTable['u64'] = 'top';
+gv_vAlignTable['u56'] = 'center';gv_vAlignTable['u58'] = 'center';gv_vAlignTable['u59'] = 'top';gv_vAlignTable['u60'] = 'top';gv_vAlignTable['u61'] = 'top';gv_vAlignTable['u63'] = 'center';gv_vAlignTable['u64'] = 'top';
 $axure.eventManager.mouseover('u65', function(e) {
 if (!IsTrueMouseOver('u65',e)) return;
 if (true) {
@@ -163,50 +147,6 @@ if (true) {
 
 	SetPanelVisibility('u67','hidden','none',500);
 
-}
-});
-HookHover('u140', false);
-gv_vAlignTable['u141'] = 'center';gv_vAlignTable['u145'] = 'center';u146.tabIndex = 0;
-
-u146.style.cursor = 'pointer';
-$axure.eventManager.click('u146', function(e) {
-
-if (true) {
-
-	SetPanelVisibility('u121','','none',500);
-
-}
-});
-
-$axure.eventManager.mouseover('u146', function(e) {
-if (!IsTrueMouseOver('u146',e)) return;
-if (true) {
-
-SetWidgetSelected('u140');
-}
-});
-
-$axure.eventManager.mouseout('u146', function(e) {
-if (!IsTrueMouseOut('u146',e)) return;
-if (true) {
-
-SetWidgetNotSelected('u140');
-}
-});
-
-$axure.eventManager.mouseover('u147', function(e) {
-if (!IsTrueMouseOver('u147',e)) return;
-if (true) {
-
-SetWidgetSelected('u137');
-}
-});
-
-$axure.eventManager.mouseout('u147', function(e) {
-if (!IsTrueMouseOut('u147',e)) return;
-if (true) {
-
-SetWidgetNotSelected('u137');
 }
 });
 gv_vAlignTable['u71'] = 'center';gv_vAlignTable['u73'] = 'center';gv_vAlignTable['u74'] = 'top';gv_vAlignTable['u75'] = 'top';gv_vAlignTable['u76'] = 'top';gv_vAlignTable['u78'] = 'center';gv_vAlignTable['u79'] = 'top';
